@@ -1,0 +1,16 @@
+El proyecto consiste en:
+<aside>
+💡 ***Una importante compañía de seguros del país (Seguros tu Papá), está teniendo problemas de imagen y serios problemas financieros debido a demandas que tienen como base que, los pagos a plazos de los seguros que han adquirido los usuarios en el extranjero no reflejan el valor real del pago en la moneda local del cliente debido a las variaciones que está teniendo el peso colombiano respecto al dólar.
+
+En el caso de que el peso se revalúe respecto al dólar, los usuarios quedan con un saldo pendiente y en caso de que se devalúe quedan con saldo a favor, el caso crítico es el primero, dado que está generando mora a los clientes, suceso que ha llevado a reportes en centrales de riesgo y afectación en la imagen crediticia de los usuarios, causal para las demandas en contra de la compañía.
+
+Su tarea como arquitecto y líder técnico en tecnologías Java y arquitecturas de servicios, es proponer una solución que permita mitigar esta situación, presentando el valor real que debe pagar el cliente al momento de realizar la transacción con un valor de TRM en tiempo real. Por lo tanto, usted debe encontrar una fuente que le entregue el valor de la TRM en tiempo real y la aplique cuando el cliente ingrese a hacer el pago, el servicio debe bloquear esta TRM por periodo de máximo 20 minutos y si la transacción finaliza exitosamente, se debe registrar que TRM se usó para el pago.
+
+https://currencylayer.com/product
+https://exchangeratesapi.io/***
+
+***Los PQRS de vinculados a esta problemática, corresponden al 24% del total de PQRS que recibe la compañía y en total entre la operación que requiere atender estos PQRS y las demandas, la compañía está gastando anualmente una suma de 3.200 millones de pesos, más el lucro cesante que se está teniendo a causa de la afectación en la imagen de la compañía que se estima en un valor anual de 600 millones de pesos.***
+
+</aside>
+
+Nosotros realizamos por microservicios con springboot, la intencion es hacer el correcto despliegue en azuredevops, toda la informacion que necesites desde azuredevops puedes consultarmela y con gusto te la compartire para un correcto entendimiento y desarrollo
